@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="488b49c7-160a-47a3-9e85-961b783c3811" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uselessTools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sshClient/Client.py" afterDir="false" />
+    <list default="true" id="488b49c7-160a-47a3-9e85-961b783c3811" name="Default Changelist" comment="finish ssh client core">
+      <change afterPath="$PROJECT_DIR$/sshClient/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uselessTools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uselessTools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshClient/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/sshClient/Client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +55,36 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="uselessTools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sshClient" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sshClient/Client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,25 +104,74 @@
       <workItem from="1592982957781" duration="161000" />
       <workItem from="1592983142442" duration="574000" />
       <workItem from="1592985272762" duration="104000" />
-      <workItem from="1592985419889" duration="3656000" />
+      <workItem from="1592985419889" duration="4780000" />
+      <workItem from="1593419606619" duration="148000" />
+      <workItem from="1593419788912" duration="1398000" />
+      <workItem from="1593430610642" duration="2342000" />
     </task>
+    <task id="LOCAL-00001" summary="finish ssh client core">
+      <created>1593329206086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593329206086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="finish ssh client core" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish ssh client core" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593430833724">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-853.1080.1890/0.0.1920.1050/-1366.139.1366.768@0.0.1920.1050" timestamp="1593430833724" />
     <state x="417" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593328441229">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="417" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1593328441229" />
-    <state x="182" y="26" key="SettingsEditor" timestamp="1593328724902">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1593433952361">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/1920.-853.1080.1890/0.0.1920.1050/-1366.139.1366.768@0.0.1920.1050" timestamp="1593433952361" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1593433952360">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.center/1920.-853.1080.1890/0.0.1920.1050/-1366.139.1366.768@0.0.1920.1050" timestamp="1593433952360" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1593433952360">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.left/1920.-853.1080.1890/0.0.1920.1050/-1366.139.1366.768@0.0.1920.1050" timestamp="1593433952360" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1593433952361">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.right/1920.-853.1080.1890/0.0.1920.1050/-1366.139.1366.768@0.0.1920.1050" timestamp="1593433952361" />
+    <state x="256" y="37" key="SettingsEditor" timestamp="1593419758053">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="182" y="26" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593328724902" />
     <state x="221" y="79" key="SettingsEditor/0.0.1440.870/1440.137.1366.768@0.0.1440.870" timestamp="1592983119634" />
+    <state x="256" y="37" key="SettingsEditor/1920.-853.1080.1890/0.0.1920.1050/-1366.139.1366.768@0.0.1920.1050" timestamp="1593419758053" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/uselessTools$Client.coverage" NAME="Client Coverage Results" MODIFIED="1593433952343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sshClient" />
   </component>
 </project>
